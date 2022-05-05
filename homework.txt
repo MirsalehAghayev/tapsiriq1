@@ -1,0 +1,47 @@
+using System;
+
+public class Program
+{
+public static void Main()
+{
+int num;
+                 num = 21;
+           
+         Console.WriteLine("Number: "+num);
+           
+         // checking if the number is divisible by 7 and 3
+         if (num % 7 == 0 && num % 3 == 0) {
+            Console.WriteLine("Divisible by 7 and 3");
+         } else {
+            Console.WriteLine("Not divisible by 7 and 3");
+         }
+         Console.ReadLine();
+      }
+   }
+
+
+
+
+
+ 
+static void Main(string[] args)
+        {
+            int hesab1, hesab2, toplam = 0;
+            Console.Write("1. hesab : ");
+            hesab1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("2. hesab : ");
+            hesab2 = Convert.ToInt32(Console.ReadLine());
+ 
+            for(int i=hesab1;i<=hesab2;i++)
+            {
+                toplam += i;
+            }
+            Console.WriteLine("{0} ile {1} arasındakı sayıların toplamı : {2}",hesab1,hesab2,toplam);
+            Console.ReadKey();
+        }
+ 
+      }
+
+   }
+
+
